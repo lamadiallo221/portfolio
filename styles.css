@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* ce code sert a manipuler l image */
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
