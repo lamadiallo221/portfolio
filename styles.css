@@ -9,13 +9,62 @@
 
 
 
+.navbar{
+    background-color: rgb(236, 210, 154);
+    padding: 15px 20px;
+    height: 80px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+.nav-links li{
+    padding: 0% 15px;
+
+ 
+}
+.nav-links li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1,2rem;
+}
+
+.nav-links li>a:hover{
+    color: rgb(17, 17, 183);
+}
+.dropdown{
+    position: relative;
+   display: inline-block;
+}
+.monbutton{
+    background-color: rgb(236, 210, 154);
+    border: none;
+    font-size: 1,2rem;
+    cursor: pointer;
+
+}
+
 
 
 
 
 /* ce code sert a manipuler l image */
 .logo img{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
 }
